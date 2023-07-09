@@ -101,7 +101,7 @@ cursor: pointer;
 
 }
 .left-side-container{
-    background-color: red;
+    background-color: rgb(224, 56, 56);
     width: 30%;
     padding: 50px;
     border-radius: 20px;
@@ -191,6 +191,7 @@ cursor: pointer;
     padding: 10px;
     border-radius: 30px;
     height: fit-content;
+    box-shadow: 5px 5px 10px 2px black;
 }
 .blog-title{
     color: black;

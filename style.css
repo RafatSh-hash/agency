@@ -199,6 +199,10 @@ cursor: pointer;
     margin:50px;
 }
 
+.news{
+    text-decoration: underline;
+}
+
 .card{
     width: 300px;
     

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(66, 97, 233);
+    background-color: #4d4dda;
     padding:10px ;
 }
 .menus{
@@ -48,7 +48,7 @@
     color: white;
 }
 .primary{
-    color: red;
+    color: #f94c30;
 }
 .description{
     color: white;
@@ -83,12 +83,12 @@ cursor: pointer;
 }
 
 .bg-primary{
-    background-color:red;
+    background-color:#f94c30;
     color: white;
 }
 .service-container{
     height:100vh;
-    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,13 +119,14 @@ cursor: pointer;
     width:130px;
     height: 80px;
     padding: 80px;
+    margin: 20px;
     border-radius: 20px;
     color: white;
-    
+    border-color: #f94c30;
     border-radius: 20px;
     transition: transform 0.5s ease;
-    box-shadow:4px 4px 8px gray;
-    background-color:rgb(77, 77, 218) ;
+    box-shadow:2px 2px 10px #f94c30;
+    background: linear-gradient(to right, #f94c30,rgb(163, 77, 133), rgb(77, 77, 218));
 }
 .box:hover{
     transition: ease;
@@ -166,7 +167,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
-    border-right: 2px solid red;
+    border-right: 2px solid #a7a7a7;
     padding-right:20px;
 }
 .phone-call{

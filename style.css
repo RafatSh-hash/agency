@@ -22,6 +22,7 @@
 .menu{
     transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     padding: 10px;
+    cursor: pointer;
 }
 
 .menu:hover{
@@ -68,6 +69,7 @@ transition: transform 0.5s ease;
 box-shadow: 2px 2px 2px 2px black;
 background-color: rgb(77, 77, 218);
 color: white;
+cursor: pointer;
 
 }
 

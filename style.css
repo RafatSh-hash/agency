@@ -210,15 +210,15 @@ cursor: pointer;
     width: 300px;
     
     /* background-color: blue; */
-    box-shadow: 4px 8px 4px gray;
-    border-radius:5px;
+    box-shadow: 4px 8px 4px 0.8 #493db4;
+    border-radius:20px;
     background-color: rgb(77, 77, 218);
     padding: 30px;
     transition: transform 0.5s ease;
 
 }
 .card:hover{
-    box-shadow: 4px 8px 8px gray;
+    box-shadow: 4px 8px 8px #cf7c6f;
     transition: ease;
     transform: scale(1.1);
     animation-duration: 1000;
@@ -268,7 +268,7 @@ cursor: pointer;
     color: white;
 }
 .footer-main h3{
-    text-decoration: underline;
+    
     color: white;
 }
 .footer-main  a {

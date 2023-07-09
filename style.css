@@ -63,7 +63,7 @@
 padding: 12px 20px;
 border: none;
 margin: 10px 15px;
-border-radius: 20px;
+border-radius: 10px;
 font-weight: 700;
 transition: transform 0.5s ease;
 box-shadow: 2px 2px 2px 2px black;
@@ -188,12 +188,13 @@ cursor: pointer;
 .blog-container{
     width: 80%;
     margin: auto;
-    background-color: rgb(182, 182, 182);
+        background: linear-gradient(to left, #dd4129, rgb(134, 56, 107, 0.7), rgb(54, 54, 170, 0.7));
     padding: 10px;
     margin-bottom: 100px;
     border-radius: 30px;
     height: fit-content;
     box-shadow: 5px 5px 10px 2px black;
+    
 }
 .blog-title{
     color: black;
@@ -259,20 +260,7 @@ cursor: pointer;
         
 }
 
-.footer-main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 10%;
-    background-image: url('./asset/logo/logo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    /* Adjust the opacity as per your requirements */
-}
+
 
 .FText{
     margin-left: 10px ;
@@ -290,6 +278,7 @@ cursor: pointer;
 }
 .footer-logo{
     scale: 1.3;
+    
 
 }
 .w{
